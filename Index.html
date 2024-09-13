@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A blog about digital marketing tips, SEO, and social media strategies.">
+    <title>Marketing Tips Blog</title>
+    <link rel="stylesheet" href="Style.css">
+    <style>
+        /* Professional CSS Styles */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #f7f9fc;
+        }
+
+        header {
+            background-color: #0056b3;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header .logo {
+            font-size: 30px;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 20px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: 600;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        /* Blog Post Section */
+        section {
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        section#home {
+            background-color: #e9ecef;
+        }
+
+        section#home h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        section#home p {
+            font-size: 20px;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            line-height: 1.6;
+        }
+
+        /* Blog Section */
+        section#blog {
+            background-color: #f7f9fc;
+        }
+
+        section#blog h2 {
+            font-size: 32px;
+            margin-bottom: 40px;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+
+        .blog-posts {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .blog-posts article {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            margin: 20px;
+            padding: 20px;
+            text-align: left;
+        }
+
+        .blog-posts article h3 {
+            color: #0056b3;
+            font-size: 22px;
+            margin-bottom: 10px;
+        }
+
+        .blog-posts article p {
+            color: #333;
+            font-size: 16px;
+            line-height: 1.6;
+            margin-bottom: 15px;
+        }
+
+        .blog-posts article a {
+            color: #0056b3;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        .blog-posts article a:hover {
+            text-decoration: underline;
+        }
+
+        /* Newsletter Section */
+        section#newsletter {
+            background-color: #e9ecef;
+        }
+
+        section#newsletter h2 {
+            font-size: 28px;
+            margin-bottom: 20px;
+        }
+
+        section#newsletter form {
+            margin: 0 auto;
+            max-width: 400px;
+        }
+
+        input, button {
+            padding: 12px;
+            margin: 10px 0;
+            width: 100%;
+            max-width: 400px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        button {
+            background-color: #0056b3;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #004080;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #0056b3;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+
+        footer a {
+            color: #ffdd57;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .blog-posts {
+                flex-direction: column;
+            }
+
+            nav ul li {
+                display: block;
+                margin: 10px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">Marketing Tips Blog</div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#newsletter">Newsletter</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h1>Welcome to the Marketing Blog</h1>
+        <p>Stay ahead in the marketing world with our expert articles, tips, and resources on SEO, social media marketing, and content strategies for businesses of all sizes.</p>
+    </section>
+
+    <section id="blog">
+        <h2>Latest Blog Posts</h2>
+        <div class="blog-posts">
+            <article>
+                <h3>Mastering SEO in 2024: Best Practices</h3>
+                <p>Discover the most effective SEO strategies to boost your website rankings, drive traffic, and grow your business in 2024. Learn about keyword research, on-page optimization, and more.</p>
+                <a href="#">Read More</a>
+            </article>
+
+            <article>
+                <h3>Building an Engaging Social Media Presence</h3>
+                <p>Engage your audience with proven social media strategies. From creating eye-catching visuals to effective storytelling, this guide will take your social media game to the next level.</p>
+                <a href="#">Read More</a>
+            </article>
+
+            <article>
+                <h3>Email Marketing: The Ultimate Guide for Beginners</h3>
+                <p>Email marketing remains a powerful tool for reaching customers. Learn the best practices for growing your email list, crafting impactful messages, and boosting open rates.</p>
+                <a href="#">Read More</a>
+            </article>
+        </div>
+    </section>
+
+    <section id="newsletter">
+        <h2>Subscribe to Our Newsletter</h2>
+        <p>Join our mailing list to receive the latest updates and marketing strategies straight to your inbox.</p>
+        <form>
+            <input type="email" placeholder="Enter your email" required>
+            <button type="submit">Subscribe</button>
+        </form>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Have questions? Reach out to us for expert advice or collaboration opportunities. We’d love to hear from you!</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Marketing Tips Blog. Follow us on:
+            <a href="#">Facebook</a> |
+            <a href="#">Twitter</a> |
+            <a href="#">LinkedIn</a>
+        </p>
+    </footer>
+</body>
+</html>
